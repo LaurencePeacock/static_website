@@ -20,7 +20,7 @@ h4{
 /* HEADER */
 
 header{
-    background-image: url(/PORTFOLIO/images/background.jpg);
+    background-image: url(/images/background.jpg);
     background-size: cover;
     min-height: 50vh;
 }   
