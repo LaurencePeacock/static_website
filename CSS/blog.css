@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*FONTS*/
+h2{
+    font-size: clamp(2em, 4vw, 6em)
+}
+h3{
+    font-size: 3em;
+}
+.blog-header{
+    font-size: clamp(1em, 2vw, 4em)
+}
+
+
+
+/*LAYOUT*/
+main{
+    margin: 3em auto;
+    width: 70%;
+}
+article{
+    margin-top: 4em;
+    margin-bottom: 6em;
+    padding-top: 2em;
+padding-bottom: 2em;
+box-shadow: 0px 0px 12px -2px rgba(161, 161, 161, 0.4);
+    border-radius: 10px;
+}
+ 
+.blog-head,
+.blog-head2, 
+.blog-post, 
+.blog-image,
+.read-more-button,
+.blog-footer{
+    margin: 3vh 3vw;
+    max-width: 60vw;
+}
+.blog-title{
+    margin: 3vh 3vw 1vh 3vw;
+    max-width: 60vw;
+}
+.blog-subtitle{
+    margin: 0vh 3vw 6vh 3vw;
+    font-weight: 300;
+}
+sup{
+    font-size: 0.6em;
+}
+.blog-post{
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.5em;
+} 
+.blog-image{
+
+}
+.blog-footer{
+    text-align: right;
+    margin-right: 2em;
+}
+.blog-footer-icons{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+}
+.blog-footer-icons a{
+    color: black;
+}
+.read-more{
+    display: none;
+}
+/* https://www.impressivewebs.com/animate-display-block-none/ 
+Possibly use this for animating the transition*/
+.read-more-2{
+    display: block;
+    transition: display 1s;
+}
+.read-more-button{
+    cursor: pointer;
+    font-size: clamp(1em, 2vw, 1.3em);
+}
