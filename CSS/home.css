@@ -14,7 +14,10 @@ h2{
     font-size: clamp(1.5em, 2vw, 2em);
 }
 h4{
-    //font-size: clamp(1em, 2vw,1.5em);
+    font-size: clamp(1.5em, 2vw, 2em);
+}
+h5{
+    font-size: clamp(1em, 2vw, 1.5em);
 }
 
 /* HEADER */
@@ -56,7 +59,8 @@ nav a{
     font-weight: 300;
 }
 nav a:hover{
-    color: rgb(211, 211, 211);;
+    color: rgb(211, 211, 211);
+    text-shadow: -2px 3px 5px #1a1a1a;
 }
 nav .material-icons{
     font-size: clamp(2.5em, 6vw, 4em);
@@ -68,10 +72,15 @@ nav ul{
 nav ul a{
     text-decoration: none;
     padding: .3em;
+    text-shadow: -2px 3px 5px #3d3d3d;
 }
 nav  .material-icons{
     color: white;
+    text-shadow: -2px 3px 5px #3d3d3d;
 } 
+nav .home-button{
+    text-shadow: -2px 3px 5px #0f0f0f;
+}
 .hamburger-links{
     display: none;
     text-align: center;
@@ -88,6 +97,7 @@ nav  .material-icons{
 .hamburger-links span a{
     text-decoration: none;
     color: white;
+    text-shadow: -2px 3px 5px #3d3d3d;
 }
 .hamburger-links span a:hover{
     color: rgb(211, 211, 211);
@@ -158,14 +168,12 @@ nav  .material-icons{
     flex-direction: column;
 }
 .portrait img{
-    
-    //overflow: hidden;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    padding-bottom: 1em;
+    max-width: 20vw;
+    margin-bottom: 1em;
 }
 .portrait h4{
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 .portrait p{
@@ -210,21 +218,18 @@ nav  .material-icons{
     justify-content: center;
     max-width: 70%;
     margin: 0 auto;
-    border: 1px solid red;;
 }
-.portrait img{
-    overflow: hidden;
-    border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
-    padding-bottom: 1em;
-    border: 1px solid red;
-}
+
 
 }
 
 
 /*FOOTER*/
+
+hr{
+    border: 1px solid rgba(29, 29, 29,0);
+    box-shadow: -3px 5px 13px 3px rgba(121, 121, 121, 0.24);
+}
 footer{
     background-image:  linear-gradient(20deg, rgba(0,128,128,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%),
     url(https://laurencepeacock.github.io/Site/images/background.jpg);
@@ -235,7 +240,7 @@ footer{
 }
 .list-container{
     display: flex;
-    gap: clamp(1.5em, 7vw, 10em);
+    gap: clamp(2rem, 10vw, 10rem);
     justify-content: center;
     align-items: flex-start;
     font-size: .8em;
@@ -248,10 +253,15 @@ footer ul{
 footer li{
     list-style-type: none;
     font-size: clamp(1em, 2vw,1.5em);
+    line-height: 1.4em;
 }
 footer ul li a{
     text-decoration: none;
     color: white;
+}
+footer ul li a:hover{
+   
+    color: rgb(190, 190, 190);
 }
 .social-media-icons{
     margin: 0 auto;
@@ -262,9 +272,11 @@ footer ul li a{
 .social-media-icons a {
     text-decoration: none;
     color: white;
+    text-shadow: -2px 3px 5px #3d3d3d;
 }
 .social-media-icons a:hover {
     color: rgb(190, 190, 190);
+    text-shadow: -2px 3px 5px #1A0B07;
 }
 .fab{
     padding: 0 0.5em;
