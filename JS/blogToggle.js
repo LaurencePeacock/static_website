@@ -7,5 +7,5 @@ function readMore (){
     
 }
 
-toggleButton.addEventListener('click', readMore);
+button1.addEventListener('click', readMore);
 
