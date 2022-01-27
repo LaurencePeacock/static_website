@@ -134,6 +134,7 @@ nav .home-button{
     //width: 75vw;
     //height: 55vh;
     transform: scale(1.2);
+    margin: 1em;
     
 }
 .image{
