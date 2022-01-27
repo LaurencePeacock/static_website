@@ -20,7 +20,7 @@ h4{
 /* HEADER */
 
 header{
-    background-image: url(/PORTFOLIO/images/background.jpg);
+    background-image: url(./images/background.jpg);
     background-size: cover; 
     max-height: 20vh;
     
@@ -221,7 +221,7 @@ textarea:focus{
 }
 .banner{
     background-image:  linear-gradient(20deg, rgba(0,128,128,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%),
-    url(/PORTFOLIO/images/background.jpg);
+    url(./images/background.jpg);
     background-size: cover;
     height: 20vh;   
     background-blend-mode: screen;
@@ -317,7 +317,7 @@ hr{
 }
 footer{
     background-image:  linear-gradient(20deg, rgba(0,128,128,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%),
-    url(/PORTFOLIO/images/background.jpg);
+    url(./images/background.jpg);
     background-blend-mode: screen;
     background-size: cover;
     color: white;
