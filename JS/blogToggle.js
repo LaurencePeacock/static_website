@@ -9,7 +9,7 @@ function readMore (){
 
 button1.addEventListener('click', readMore);
 
-let readMore2 = document.getElementById('read-more-2');
+/*let readMore2 = document.getElementById('read-more-2');
 let button2 = document.getElementById('read-more-button-2');
 
 function readMore (){
@@ -30,3 +30,5 @@ function readMore (){
 }
 
 button3.addEventListener('click', readMore);
+*/
+
