@@ -1,11 +1,8 @@
-let readMoreDivArr = document.getElementsByClassName('read-more');
-let buttonArr = document.getElementsByClassName('read-more-button');
-
-console.log(readMoreDiv);
-    console.log(toggleButton);
+let readMore1 = document.getElementsById('read-more-1');
+let button1 = document.getElementsById('read-more-button-1');
 
 function readMore (){
-    readMoreDiv[i].classList.toggle('read-more-2');
+    readMore1.classList.toggle('read-more');
   
     
 }
