@@ -129,7 +129,7 @@ input:focus{
     outline-color: rgb(119, 24, 119);
 }
 input[type=submit]{
-    width: 50%; 
+    min-width: 50%; 
     background-color: rgb(119, 24, 119);
     color: white;
     padding: 1em;
