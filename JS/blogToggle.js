@@ -1,34 +1,32 @@
-let readMore1 = document.getElementById('read-more-1');
-let button1 = document.getElementById('read-more-button-1');
+let readMore = document.getElementById('read-more');
+let button = document.getElementById('read-more-button');
 
-function readMore (){
-    readMore1.classList.toggle('read-more-2');
+
+
+function readMore1 (){
+    readMore.classList.toggle('read-more-2');
   
     
 }
 
-button1.addEventListener('click', readMore);
+button.addEventListener('click', readMore1);
 
-let readMore2 = document.getElementById('read-more-2');
-let button2 = document.getElementById('read-more-button-2');
+let readMore2 = document.getElementById('read-more2');
+let button2 = document.getElementById('read-more-button2');
 
-function readMore (){
-    readMore2.classList.toggle('read-more-2');
-  
-    
+function readMoreAgain (){
+    readMore2.classList.toggle('read-more-2');  
 }
 
-button2.addEventListener('click', readMore);
-/*
-let readMore3 = document.getElementById('read-more-3');
-let button3 = document.getElementById('read-more-button-3');
+button2.addEventListener('click', readMoreAgain)
 
-function readMore (){
-    readMore3.classList.toggle('read-more');
-  
-    
+let readMore3 = document.getElementById('read-more3');
+let button3 = document.getElementById('read-more-button3');
+
+function readMoreAgainAgain (){
+    readMore3.classList.toggle('read-more-2');  
 }
 
-button3.addEventListener('click', readMore);
-*/
+button3.addEventListener('click', readMoreAgainAgain)
+
 
