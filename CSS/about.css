@@ -296,6 +296,7 @@ footer ul li a:hover{
 .social-media-icons a:hover {
     color: rgb(190, 190, 190);
     text-shadow: -2px 3px 5px #1A0B07;
+    transform: scale(1.1);
 }
 .fab{
     padding: 0 0.5em;
