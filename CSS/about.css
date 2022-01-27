@@ -162,21 +162,16 @@ nav .home-button{
     background-image: url(https://laurencepeacock.github.io/Site/images/mobile_screens_landscape.jpg);
 }
 .four{
-    background-image: url(https://laurencepeacock.github.io/Site/images/woman_portrait.jpg);
+    background-image: url(https://source.unsplash.com/pD1LQdeNcu4/600x400);
 }
 .five{
-    background-image: url(https://laurencepeacock.github.io/Site/images/laptop_landscape.jpg);
+    background-image: url(https://source.unsplash.com/Uj3S6JiXxaA/600x400);
 }
 .six{
-    background-image: url(https://laurencepeacock.github.io/Site/images/onsite_landscape.jpg);
+    background-image: url(https://source.unsplash.com/mfDyMcjLoVQ/600x400);
 }
-.seven{
-    background-image: url(https://picsum.photos/200/300);
-}
-.eight{
-    background-image: url(https://unsplash.com/photos/EtEkFQle63A.jpg);
-}
-//https://source.unsplash.com/saxby7Bioxc/400x700
+
+//https://source.unsplash.com/mfDyMcjLoVQ/600x400
 hr{
     display: none;
 }
