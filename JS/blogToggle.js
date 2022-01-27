@@ -28,5 +28,3 @@ function readMoreAgainAgain (){
 }
 
 button3.addEventListener('click', readMoreAgainAgain)
-
-
