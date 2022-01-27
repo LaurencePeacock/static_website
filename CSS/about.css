@@ -166,17 +166,11 @@ nav .home-button{
     background-image: url(https://source.unsplash.com/msnyz9L6gs4/600x400);
 }
 
-//https://source.unsplash.com/mfDyMcjLoVQ/600x400
 hr{
     display: none;
 }
 
-.overlay{
-    //position: absolute;
-    background-color: salmon;
-    width: 100%;
-    height: 100%;
-}
+
 
 
 
