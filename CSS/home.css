@@ -9,6 +9,8 @@
 h1{
     font-size: clamp(3em, 3vw, 4em);
     letter-spacing: 0.05em;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 h2{
     font-size: clamp(1.5em, 2vw, 2em);
