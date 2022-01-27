@@ -148,22 +148,22 @@ nav .home-button{
     
 }
 .one{
-    background-image: url(https://laurencepeacock.github.io/Site/images/cameraman_portrait.jpg);
-}
-.two{
-    background-image: url(https://laurencepeacock.github.io/Site/images/chinese_woman_landscape.jpg);
-}
-.three{
-    background-image: url(https://laurencepeacock.github.io/Site/images/mobile_screens_landscape.jpg);
-}
-.four{
     background-image: url(https://source.unsplash.com/pD1LQdeNcu4/600x400);
 }
+.two{
+    background-image: url(https://source.unsplash.com/nQl9tHiMSww/600x400);
+}
+.three{
+    background-image: url(https://source.unsplash.com/b9kh72kOcdM/600x400);
+}
+.four{
+    background-image: url(https://source.unsplash.com/EtEkFQle63A/600x400);
+}
 .five{
-    background-image: url(https://source.unsplash.com/Uj3S6JiXxaA/600x400);
+    background-image: url(https://source.unsplash.com/LmsppeMVX2Y/600x400);
 }
 .six{
-    background-image: url(https://source.unsplash.com/mfDyMcjLoVQ/600x400);
+    background-image: url(https://source.unsplash.com/msnyz9L6gs4/600x400);
 }
 
 //https://source.unsplash.com/mfDyMcjLoVQ/600x400
