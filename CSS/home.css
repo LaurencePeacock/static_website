@@ -172,6 +172,7 @@ nav .home-button{
 .portrait img{
     border-radius: 50%;
     max-width: 20vw;
+    min-width: 160px;
     margin-bottom: 1em;
 }
 .portrait h4{
