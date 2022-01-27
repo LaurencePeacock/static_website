@@ -131,10 +131,7 @@ nav .home-button{
 
 .image:hover{
     opacity: 0.5;
-    //width: 75vw;
-    //height: 55vh;
-    transform: scale(1.2);
-    margin: 1em;
+ 
     
 }
 .image{
@@ -148,9 +145,7 @@ nav .home-button{
     box-shadow: -3px 5px 13px 3px rgba(0,0,0,0.24);
     margin: 1.5em auto;
     border: 2px solid rgba(0,0,0,0.3);
-    //transition: width 2s;
-    //transition: height 2s;
-    transition: scale 2s;
+    
 }
 .one{
     background-image: url(https://laurencepeacock.github.io/Site/images/cameraman_portrait.jpg);
