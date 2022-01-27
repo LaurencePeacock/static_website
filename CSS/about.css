@@ -145,19 +145,19 @@ nav .home-button{
     border: 2px solid rgba(0,0,0,0.3);
 }
 .one{
-    background-image: url(/PORTFOLIO/images/cameraman_portrait.jpg);
+    background-image: url(https://laurencepeacock.github.io/Site/images/cameraman_portrait.jpg);
 }
 .two{
-    background-image: url(/PORTFOLIO/images/chinese_woman_landscape.jpg);
+    background-image: url(https://laurencepeacock.github.io/Site/images/chinese_woman_landscape.jpg);
 }
 .three{
-    background-image: url(/PORTFOLIO/images/mobile_screens_landscape.jpg);
+    background-image: url(https://laurencepeacock.github.io/Site/images/mobile_screens_landscape.jpg);
 }
 .four{
-    background-image: url(/PORTFOLIO/images/woman_portrait.jpg);
+    background-image: url(https://laurencepeacock.github.io/Site/images/woman_portrait.jpg);
 }
 .five{
-    background-image: url(/PORTFOLIO/images/laptop_landscape.jpg);
+    background-image: url(https://laurencepeacock.github.io/Site/images/laptop_landscape.jpg);
 }
 
 hr{
