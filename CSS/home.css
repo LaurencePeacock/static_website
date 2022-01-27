@@ -14,7 +14,7 @@ h2{
     font-size: clamp(1.5em, 2vw, 2em);
 }
 h4{
-    font-size: clamp(1.5em, 2vw, 2em);
+    font-size: clamp(1.5em, 2vw, 1.7em);
 }
 h5{
     font-size: clamp(1em, 2vw, 1.5em);
