@@ -157,6 +157,9 @@ nav  .material-icons{
 .portrait h4{
     padding-bottom: 1em;
 }
+h5{
+    font-size: clamp(1em, 2vw, 1.5em);
+}
 .portrait p{
     max-width: 70%;
 }
@@ -223,7 +226,7 @@ footer{
 }
 .list-container{
     display: flex;
-    gap: clamp(1.5em, 7vw, 10em);
+    gap: clamp(2rem, 10vw, 10rem);
     justify-content: center;
     align-items: flex-start;
     font-size: .8em;
@@ -236,10 +239,15 @@ footer ul{
 footer li{
     list-style-type: none;
     font-size: clamp(1em, 2vw,1.5em);
+    line-height: 1.4em;
 }
 footer ul li a{
     text-decoration: none;
     color: white;
+}
+footer ul li a:hover{
+   
+    color: rgb(190, 190, 190);
 }
 .social-media-icons{
     margin: 0 auto;
@@ -250,9 +258,11 @@ footer ul li a{
 .social-media-icons a {
     text-decoration: none;
     color: white;
+    text-shadow: -2px 3px 5px #3d3d3d;
 }
 .social-media-icons a:hover {
     color: rgb(190, 190, 190);
+    text-shadow: -2px 3px 5px #1A0B07;
 }
 .fab{
     padding: 0 0.5em;
