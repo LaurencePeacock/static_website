@@ -234,8 +234,7 @@ hr{
     box-shadow: -3px 5px 13px 3px rgba(121, 121, 121, 0.24);
 }
 footer{
-    background-image:  linear-gradient(20deg, rgba(0,128,128,1) 0%, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%),
-    url(https://laurencepeacock.github.io/static_site/images/background.jpg);
+    background-image: url(https://laurencepeacock.github.io/static_site/images/background.jpg);
     background-blend-mode: screen;
     background-size: cover;
     color: white;
